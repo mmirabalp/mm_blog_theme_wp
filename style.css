@@ -1,0 +1,167 @@
+/*
+Theme Name: Theme Name
+Theme URI: www.myweb.com
+Description: Description of theme
+Version: 1
+Author: Author
+Author URL: Web address Author
+*/
+
+/*---General Styles--START-*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*-Body-*/
+body {
+    background: #191919;
+    font-size: 12pt;
+    forn-family: "open sans", Arial, Helvetica, sands-serif;
+}
+
+/*-AREAS (Header, Main Body Area, Footer-*/
+header, #main, footer {
+    width: 85%;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+/*Elements*/
+a {
+    color: #bf2222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*---General Styles--END-*/
+
+/*---Specific Area Styles--START-*/
+/*Header*/
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 85%;
+}
+
+header #logo {
+    width: 40%;
+    float: left;
+}
+
+header #logo p {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: left;
+    color: #fff;
+}
+
+header #logo span {
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: relative;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    right: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+header nav {
+    width: 60%;
+    float: right;
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+
+header nav ul {
+    float: right;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+header nav ul li a {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+header nav ul li a:hover {
+    color: #bf2222;
+}
+
+/*-MAIN-*/
+#main {
+    overflow: hidden;
+}
+
+/*Slide Show*/
+#main #slideshow {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#main #slideshow .thumb {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+
+#main #slideshow article {
+    float: left;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    width: 49%;
+    color: #fff;
+}
+
+#main #slideshow article h2 {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+
+#main #slideshow article .date{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #777777;
+
+}
+
+#main #slideshow .slidesjs-pagination li{
+    background: #fff;
+    width:20px;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+#main #slideshow .slidesjs-pagination li a{
+    width:20px;
+    height: 20px;
+    display: block;
+    font-size: 0pt;
+}
+
+#main #slideshow .slidesjs-pagination li .active{
+    background: #333333;
+    border-radius: 50px;
+}

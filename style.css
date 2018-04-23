@@ -74,6 +74,7 @@ header #logo span {
 }
 
 header nav {
+    display: inline-block;
     width: 60%;
     float: right;
     padding: 10px 0px;
@@ -181,6 +182,12 @@ header nav ul li a:hover {
     overflow: hidden;
 }
 
+#main #articles_list #pagination {
+    display: inline-flex;
+}
+
+
+
 #main #articles_list article .thumb {
     width: 35%;
     margin-right: 2%;
@@ -256,32 +263,32 @@ header nav ul li a:hover {
     margin-bottom: 3px;
 }
 
-.widget ul li{
+.widget ul li {
     list-style: none;
     margin-bottom: 10px;
 }
 
-.widget ul li a{
+.widget ul li a {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-style: .9rem;
     color: #777777;
 }
 
-.widget ul li a:hover{
+.widget ul li a:hover {
     color: #bf2222;
     text-decoration: none;
 }
 
 /*FOOTER*/
-footer{
+footer {
     width: 85%;
 }
 
-footer .widget{
+footer .widget {
     width: 25%;
 }
 
-footer #copyght{
+footer #copyght {
     width: 100%;
     clear: both;
     text-align: center;
